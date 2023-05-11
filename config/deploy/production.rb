@@ -8,7 +8,9 @@ server "3.83.173.38", user: "deploy", roles: %w{app db web}
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 
-
+set :default_env, {
+  'SECRET_KEY_BASE' => '74adfdf4e982b27878b60609508d909192ba583a69b5fe5e883cd43698d9baf2fdb3a29a947149c3f24dba3651e0e5dd82db24a5abafa53aeebf78fffb958817'
+}
 
 # role-based syntax
 # ==================
