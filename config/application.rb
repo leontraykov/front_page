@@ -25,6 +25,7 @@ module FrontPage
     config.load_defaults 6.1
 
     config.secret_key_base = ENV['SECRET_KEY_BASE']
+    config.public_file_server.enabled = true
 
     # Configuration for the application, engines, and railties goes here.
     #
