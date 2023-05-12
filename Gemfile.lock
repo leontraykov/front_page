@@ -178,10 +178,7 @@ GEM
       sprockets-rails
       tilt
     semantic_range (3.0.0)
-    spring (2.1.1)
-    spring-watcher-listen (2.0.1)
-      listen (>= 2.7, < 4.0)
-      spring (>= 1.2, < 3.0)
+    spring (4.1.1)
     sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -233,8 +230,7 @@ DEPENDENCIES
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.0)
   sass-rails (>= 6)
-  spring
-  spring-watcher-listen
+  spring (~> 4.1.1)
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
